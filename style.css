@@ -1,0 +1,24 @@
+.heading{
+    font-weight: 1000;
+}
+.para{
+    font-weight: 700;
+}
+/* media query for mobile  */
+@media screen and (max-width:576px) {
+   .carousel  .carousel-inner .carousel-item .carousel-caption { 
+        margin-bottom: 10%;
+    }
+ .heading{
+padding-bottom: 0%;
+ }
+    .resp{
+        display: none;
+    }
+    }
+    /* tablet media quuery  */
+@media screen and (min-width:577px) and (max-width:992px) {
+  .resp{
+        display: none;
+    }
+    }
